@@ -113,6 +113,39 @@ p {
   background: #f3f3f3;
   border: none;
 }
+.footer-section-show {
+  background: #111111;
+}
+.footer-section h6 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.footer-section h6,
+.footer-logo {
+  padding-bottom: 40px;
+}
+
+.footer-section p,
+ul > li > a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #cfcfcf;
+}
+.sms-field input {
+  position: relative;
+  border: none;
+}
+.sms-field button {
+  margin-left: -45px;
+  background-color: #b68c5a;
+  color: #ffffff;
+  z-index: 9;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+}
+
 /* -----------------------Responsive style -----------------------*/
 @media screen and (max-width: 768px) {
   .legal-practice-card {
