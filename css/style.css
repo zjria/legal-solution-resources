@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-/* 
-font-family: 'EB Garamond', serif;
-font-family: 'Poppins', sans-serif; */
-
-.header-section .logo-text {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "EB Garamond";
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+.header-section .logo-text {
   font-style: normal;
   font-weight: 800;
   font-size: 35px;
@@ -14,4 +20,70 @@ font-family: 'Poppins', sans-serif; */
 }
 .btn-navbar {
   background: #b68c5a;
+}
+.banner-section {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: contain;
+  background-size: cover;
+}
+.banner-text h1 {
+  font-weight: 800;
+  font-size: 72px;
+}
+.banner-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #e7e7e7;
+}
+/* Main Section style */
+.main-header h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #414040;
+}
+.main-header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #707070;
+}
+.legal-practice-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 10px; */
+}
+.legal-practice-card h5 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  color: #414040;
+}
+.legal-practice-card p {
+  font-size: 16px;
+}
+.legal-practice-card span {
+  background: #b68c5a;
+}
+.legan-card {
+  border: none;
+}
+.legan-card:hover {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  border: 1px solid #e7e7e7;
+}
+/* Responsive style */
+@media screen and (max-width: 768px) {
+  .legal-practice-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .legal-practice-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
