@@ -37,6 +37,7 @@ p {
   font-size: 16px;
   color: #e7e7e7;
 }
+
 /* Main Section style */
 .main-header h1 {
   font-weight: 800;
@@ -55,7 +56,6 @@ p {
 .legal-practice-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-gap: 10px; */
 }
 .legal-practice-card h5 {
   font-weight: 800;
@@ -86,9 +86,40 @@ p {
 .carousel-caption.d-none.d-md-block {
   top: 23%;
 }
-/* Responsive style */
+
+/* Contact With Us style */
+.contact-with-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #f3f3f3;
+}
+.contact-card:nth-child(odd) {
+  border-right: 0.5px solid #cfcfcf;
+  width: 100%;
+}
+.contact-card:first-child {
+  border-bottom: 1px solid #cfcfcf;
+  width: 100%;
+}
+.contact-card:nth-child(2) {
+  border-bottom: 1px solid #cfcfcf;
+  width: 100%;
+}
+.contact-card img {
+  width: 20px;
+}
+.input-form input,
+.textarea-fild {
+  background: #f3f3f3;
+  border: none;
+}
+/* -----------------------Responsive style -----------------------*/
 @media screen and (max-width: 768px) {
   .legal-practice-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact-with-card {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 }
