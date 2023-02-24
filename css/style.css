@@ -1,5 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 /* 
 font-family: 'EB Garamond', serif;
 font-family: 'Poppins', sans-serif; */
+
+.header-section .logo-text {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 46px;
+  color: #414040;
+}
+.btn-navbar {
+  background: #b68c5a;
+}
