@@ -76,6 +76,16 @@ p {
   background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
   border: 1px solid #e7e7e7;
 }
+.carousel-section .slider-img {
+  background: rgba(17, 17, 17, 0.8);
+  border-radius: 8px;
+}
+.carousel-section .user {
+  width: 70px;
+}
+.carousel-caption.d-none.d-md-block {
+  top: 23%;
+}
 /* Responsive style */
 @media screen and (max-width: 768px) {
   .legal-practice-card {
