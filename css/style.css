@@ -145,6 +145,13 @@ ul > li > a {
   border-radius: 5px 0px 0px 5px;
   border: none;
 }
+.project-information {
+  background-image: url(../images/project-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: contain;
+  background-size: cover;
+}
 
 /* -----------------------Responsive style -----------------------*/
 @media screen and (max-width: 768px) {
