@@ -133,6 +133,9 @@ ul > li > a {
   line-height: 26px;
   color: #cfcfcf;
 }
+.footer-section.py-5 {
+  text-align: start;
+}
 .sms-field input {
   position: relative;
   border: none;
@@ -161,6 +164,12 @@ ul > li > a {
   .contact-with-card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-text h1 {
+    font-size: 50px;
+  }
+  .footer-section.py-5 {
+    text-align: center;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
