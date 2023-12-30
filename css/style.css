@@ -8,9 +8,11 @@ h5,
 h6 {
   font-family: "EB Garamond";
 }
+
 p {
   font-family: "Poppins", sans-serif;
 }
+
 .header-section .logo-text {
   font-style: normal;
   font-weight: 800;
@@ -18,9 +20,11 @@ p {
   line-height: 46px;
   color: #414040;
 }
+
 .btn-navbar {
   background: #b68c5a;
 }
+
 .banner-section {
   background-image: url(../images/banner.png);
   background-repeat: no-repeat;
@@ -28,10 +32,12 @@ p {
   background-size: contain;
   background-size: cover;
 }
+
 .banner-text h1 {
   font-weight: 800;
   font-size: 72px;
 }
+
 .banner-text p {
   font-weight: 400;
   font-size: 16px;
@@ -46,6 +52,7 @@ p {
   text-align: center;
   color: #414040;
 }
+
 .main-header p {
   font-weight: 400;
   font-size: 16px;
@@ -53,36 +60,46 @@ p {
   text-align: center;
   color: #707070;
 }
+
 .legal-practice-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .legal-practice-card h5 {
   font-weight: 800;
   font-size: 32px;
   line-height: 42px;
   color: #414040;
 }
+
 .legal-practice-card p {
   font-size: 16px;
 }
+
 .legal-practice-card span {
   background: #b68c5a;
+  padding: 5px 9px;
 }
+
 .legan-card {
   border: none;
 }
+
 .legan-card:hover {
   background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
   border: 1px solid #e7e7e7;
 }
+
 .carousel-section .slider-img {
   background: rgba(17, 17, 17, 0.8);
   border-radius: 8px;
 }
+
 .carousel-section .user {
   width: 70px;
 }
+
 .carousel-caption.d-none.d-md-block {
   top: 23%;
 }
@@ -93,53 +110,64 @@ p {
   grid-template-columns: repeat(2, 1fr);
   background: #f3f3f3;
 }
+
 .contact-card:nth-child(odd) {
   border-right: 0.5px solid #cfcfcf;
   width: 100%;
 }
+
 .contact-card:first-child {
   border-bottom: 1px solid #cfcfcf;
   width: 100%;
 }
+
 .contact-card:nth-child(2) {
   border-bottom: 1px solid #cfcfcf;
   width: 100%;
 }
+
 .contact-card img {
   width: 20px;
 }
+
 .input-form input,
 .textarea-fild {
   background: #f3f3f3;
   border: none;
 }
+
 .footer-section-show {
   background: #111111;
 }
+
 .footer-section h6 {
   font-weight: 800;
   font-size: 24px;
   line-height: 31px;
   color: #ffffff;
 }
+
 .footer-section h6,
 .footer-logo {
   padding-bottom: 40px;
 }
 
 .footer-section p,
-ul > li > a {
+ul>li>a {
   font-size: 16px;
   line-height: 26px;
   color: #cfcfcf;
 }
+
 .footer-section.py-5 {
   text-align: start;
 }
+
 .sms-field input {
   position: relative;
   border: none;
 }
+
 .sms-field button {
   margin-left: -45px;
   background-color: #b68c5a;
@@ -148,12 +176,14 @@ ul > li > a {
   border-radius: 5px 0px 0px 5px;
   border: none;
 }
+
 .project-information {
   background-image: url(../images/project-logo.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-size: contain;
   background-size: cover;
+  color: #b68c5a;
 }
 
 /* -----------------------Responsive style -----------------------*/
@@ -161,17 +191,21 @@ ul > li > a {
   .legal-practice-card {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .contact-with-card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
   .banner-text h1 {
     font-size: 50px;
   }
+
   .footer-section.py-5 {
     text-align: center;
   }
 }
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .legal-practice-card {
     grid-template-columns: repeat(2, 1fr);
